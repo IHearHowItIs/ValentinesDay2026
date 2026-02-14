@@ -1,3 +1,8 @@
+body {
+  background-color: #342753;
+  font-family: 'Kalnia Glaze', cursive; /* fallback for mobile */
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -7,16 +12,11 @@
 .dice {
   text-align: center;
   display: inline-block;
-
-}
-
-body {
-  background-color: #342753;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Kalnia Glaze';
+  font-family: 'Kalnia Glaze', cursive;
   text-shadow: 5px 0 #ff0000;
   font-size: 6rem;
   color: #ff0000;
@@ -25,7 +25,7 @@ h1 {
 p {
   font-size: 2rem;
   color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Emilys Candy', cursive;
 }
 
 img {
@@ -36,6 +36,5 @@ footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  font-family: 'Emilys Candy', cursive;
 }
