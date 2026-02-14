@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Valentines Start</title>
+
+    <style>
+      /* Remove default margin/padding */
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      /* Make the image cover the entire viewport */
+      body {
+        display: flex;
+        justify-content: center; /* horizontal center */
+        align-items: center;     /* vertical center */
+        background: #fa6565;        /* optional background color while image loads */
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* fills screen while keeping aspect ratio */
+      }
+    </style>
+
+  </head>
+  <body>
+     <img id="myImage" src="./images/Present.png" />
+
+     <script>
+        const img = document.getElementById("myImage");
+
+        img.onclick = function() {
+            window.location.href = "dicee.html";
+        }
+    </script>
+  </body>
+</html>
